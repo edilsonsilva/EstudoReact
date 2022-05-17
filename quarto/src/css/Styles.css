@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.superior {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid silver;
+}
+.superior img {
+  width: 100px;
+  height: 100px;
+}
+.superior h1 {
+  font-size: 15pt;
+  text-align: center;
+  width: 50vw;
+}
+.superior h2 {
+  font-size: 12pt;
+  text-align: center;
+  width: 50vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.mensagem {
+  width: 30vw;
+  height: 80vh;
+  border-right: 1px solid silver;
+}
+.conteudo {
+  width: 70vw;
+  height: 80vh;
+}
