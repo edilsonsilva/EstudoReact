@@ -38,3 +38,21 @@
   width: 70vw;
   height: 80vh;
 }
+.conteudo .produtos {
+  display: flex;
+  flex-direction: row;
+}
+.conteudo .produtos div {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 5px silver;
+  cursor: pointer;
+  transition: ease 0.5s;
+  margin: 10px;
+}
+.conteudo .produtos div:hover {
+  transform: scale(1.1);
+  background-color: #000;
+  color: #fff;
+}
